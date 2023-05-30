@@ -1,0 +1,23 @@
+.hTitulo{
+	color: #006837;
+}
+
+.lblMaterial{
+    color: #006837;
+    font-weight: bold;
+}
+
+.pMaterial{
+    color: #006837;
+    font-weight: bold;
+}
+
+.btnGuardar{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.btnCancelar{
+	font-weight: bold;
+	font-size: 18px;
+}

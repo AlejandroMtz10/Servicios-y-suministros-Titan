@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src="../js/colorTema.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<style type="text/css">
+		.principal{
+			background-image: url("../img/madera.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		footer{
+			background-image: url("../img/madera.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.foto{
+			width: 500px;
+			height: 300px;
+			margin-right: 20px;
+		}
+
+		.foto2{
+			width: 500px;
+			height: 600px;
+			margin-left: 20px;
+		}
+	</style>
+	<title>Servicios y suministros Titan</title>
+</head>
+<body data-bs-theme="light">
+	<div class="principal container-fluid">
+			<header class="row">
+				<div class="col">
+					<img src="../img/logoServiciosTitan.png" alt="">
+				</div>
+			</header>	
+			<nav class="row">
+				<ul class="nav justify-content-end">
+					<li><a href="../clientes/index.html" class="nav-link"><i class="bi bi-house"></i> Inicio</a></li>
+					<li><a href="../clientes/nosotros.html" class="nav-link">Nosotros</a></li>
+					<li><a class="nav-link" data-bs-toggle="dropdown">Compra y venta</a>
+						<ul class="dropdown-menu">
+							<li><a href="../clientes/compras.php" class="dropdown-item">Comprar</a></li>
+							<li><a href="../clientes/ventas.php" class="dropdown-item">Vender</a></li>
+						</ul>
+					</li>
+					<li><a href="../clientes/contacto.php" class="nav-link">Contacto</a></li>
+				    <li>
+				    	<button onclick="cambiarTema()" class="btn rounded-fill"><i id="dl-icon" class="iconos bi bi-moon-fill"></i></button>
+				    </li>	
+				</ul>
+			</nav>
+	</div>
+
+	<div class="container fondoParrafo">
+		<h1 class="titulo">Servicios Titan S.A. de C.V.</h1>
+		<h2 class="titulo">Carretera Santa Eulalia Kilometro 1050</h2>
+		<div class="row">
+			<div class="col">
+				<img src="../img/entrada.jpeg" class="rounded float-start foto" alt="Entrada">
+				<p class="parrafo fs-4 text">Servicios y Suministros Titan S.A. de C.V. es empresa multifuncional especialisada en la manofactura de tarimas con mas de 20 años de experiencia brindamos la mejor calidad de tarimas en el mercado, nosotros trabajando alrededor de tus nesecidades para generar un pedido de tarimas especificadas para ciertas tareas, tareas tales como soportar cierta cantidad de peso, determinado tamaño, todo tipo de especificaciones seran tomadas encuenta para entregar un producto de alta calidad según sus necesidades.</p>
+				<p class="parrafo fs-4 text">También contamos con venta de madera de todo tipo de materiales tablas, triplays, tarimas, nos especialisamos en este ambito de produccion así también como la compra de materiales reciclables en proporciones grandes.</p>
+			</div>
+			<hr>
+			<h2 class="titulo">¿Buscas empleo?</h2>
+			<div class="col">
+				<p class="parrafo fs-4 text">
+					En Servicios y Suministros Titan te ofrecemos las mejores oportunidades de diferentes pociciones con una amplia variedad, tu estancia y trabajo será basada en tus habilidades dentro de tu empleo de trabajo. Contamos con las siguientes vacantes de posiciones dentro de la empresa:
+				</p>
+				<img src="../img/empleado.jpeg" class="rounded float-end foto2" alt="Empleado">	
+				<li class="parrafo fs-4 text">Tarimero:</li>
+				<p class="parrafo fs-5 text">El tarimero se encarga de trabajar con la manofactura de las ditintas tarimas que se elaboran dentro de la empresa sin importar su tamaño o el material de que son hechas las tarimas.</p>
+				<li class="parrafo fs-4 text">Ayudante</li>
+				<p class="parrafo fs-5 text">El ayudante es encargado de suplir a todos los tarimeros, ademas son los encargados de distribuir todos los clavos, barrotes y tablas dentro de la empresa.</p>
+				<li class="parrafo fs-4 text">Montacarguista</li>
+				<p class="parrafo fs-5 text">
+					El montacarguista es encargado de mover grandes cantidades de tablas, barrotes y tarimas. Se tomarán encuenta sus conocimientos prebios en el manejo y habilidad de uso del montacargas.
+				</p>
+				<li class="parrafo fs-4 text">Cortador</li>
+				<p class="parrafo fs-5 text">El cortador es el encargado cortar tablas, triplays y barrotes, se le solicita se una persona cuidadosa en el manejo de herramientas de corte para evitar accidentes.</p>
+			</div>
+			</div>
+	</div>
+
+	<footer class="container-fluid">
+			<div class="row">
+				<div class="contacto col">
+					<div class="row widgets justify-content-end">
+						<div class="col-12 col-md-4 col-lg-3">
+							<p>Ciudad Acuña, Coah.</p>
+							<p>Tel: (877) 773 16 17 y 773 16 20</p>
+							<p>tarimas_titan@yahoo.com.mx</p>
+						</div>
+
+						<div class="col-12 col-md-4 col-lg-3">
+							<p>Piedras Negras, Coah.</p>
+							<p>Tel: (877) 786 16 52 y 786 16 20</p>
+							<p>tarimas_titan@yahoo.com.mx</p>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</footer>
+</body>
+</html>

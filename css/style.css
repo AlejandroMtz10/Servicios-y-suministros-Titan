@@ -1,0 +1,96 @@
+h1{
+	text-align: left;
+	padding-left: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.nav-link{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.nav-link:hover{
+	color: #006837;
+	font-weight: bold;
+}
+
+.contacto{
+	color:#FFFFFF;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.cotizar{
+	background-color: #C9A974;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-color: #000000;
+}
+.cotizacion{
+	background-color: #C9A974;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-color: #000000;
+}
+
+.container{
+	border: 1px;
+	margin: 5px auto;
+	padding: 50px;
+}
+
+.cotizar:hover{
+	color: #FFFFFF;
+	background-color: #085306;
+}
+.carrusel{
+	padding: 10px 10px;
+	background-color: #006837;
+}
+
+#boton1:hover{
+	background:transparent;
+	border-radius: 200px;
+}
+#boton2:hover{
+	background:transparent;
+	border-radius: 200px;
+}
+
+.textoCarrusel{
+	color: #085306;
+	font-weight: bold;
+}
+
+.iconos{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.iconos:hover{
+	color:#085306;
+}
+
+.titulo{
+	color:#085306;
+	font-weight: bold;
+}
+
+.parrafo{
+	color: #085306;
+	font-weight: bold;
+}
+
+.fondoParrafo{
+	background-color: #C9A974;
+}
+
+.dropdown-menu{
+	background-color: #C9A974;
+}
+.dropdown-item{
+	color:#085306;
+	font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.hRegistros{
+	color: #006837;
+}
+
+.pRegistros{
+	color: #006837;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.btnGuardar{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.btnCancelar{
+	font-weight: bold;
+	font-size: 18px;
+}

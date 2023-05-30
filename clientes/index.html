@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src="../js/colorTema.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<style type="text/css">
+		.principal{
+			background-image: url("../img/madera.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		footer{
+			background-image: url("../img/madera.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+	</style>
+	<title>Servicios y suministros Titan</title>
+</head>
+<body data-bs-theme="light">
+	<div class="principal container-fluid">
+			<header class="row">
+				<div class="col">
+					<img src="../img/logoServiciosTitan.png" alt="">
+				</div>
+			</header>	
+			<nav class="row">
+				<ul class="nav justify-content-end">
+					<li><a href="../clientes/index.html" class="nav-link"><i class="bi bi-house"></i> Inicio</a></li>
+					<li><a href="../clientes/nosotros.html" class="nav-link">Nosotros</a></li>
+					<li><a class="nav-link" data-bs-toggle="dropdown">Compra y venta</a>
+						<ul class="dropdown-menu">
+							<li><a href="../clientes/compras.php" class="dropdown-item">Comprar</a></li>
+							<li><a href="../clientes/ventas.php" class="dropdown-item">Vender</a></li>
+						</ul>
+					</li>
+					<li><a href="../clientes/contacto.php" class="nav-link">Contacto</a></li>
+				    <li>
+				    	<button onclick="cambiarTema()" class="btn rounded-fill"><i id="dl-icon" class="iconos bi bi-moon-fill"></i></button>
+				    </li>	
+				</ul>
+			</nav>
+	</div>
+	<!--Carrusel de muestra de productos-->
+	<div class="container carrusel justify-content-center">
+		<div class="row">
+			<div class="col">
+				<div class="carousel slide carousel-fade" id="mycarousel" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active" data-bs-interval="2500">
+							<div class="carousel-caption textoCarrusel">
+								<h5>Servicios Titan</h5>
+								<p>Cuenta con tarimas de alta calidad a la disposicion de todos.</p>
+							</div>
+							<img src="../img/Entrada2.jpeg" class="d-block w-100" alt="">
+						</div>
+						<div class="carousel-item" data-bs-interval="2500">
+							<div class="carousel-caption textoCarrusel">
+								<h5>Servicios Titan</h5>
+								<p>Contamos con dos sucursales en Piedras Negras y Ciudad Acuña con 20 años de servicio a las industrias maquiladoras en ambas ciudades y a la afueras de la ciudad.</p>
+							</div>
+							<img src="../img/sello3.jpeg" class="d-block w-100" alt="">
+						</div>
+						<div class="carousel-item" data-bs-interval="2500">
+							<div class="carousel-caption textoCarrusel">
+								<h5>Servicios Titan</h5>
+								<p>Realiza tu cotización o tu pedido sin problema alguno.</p>
+							</div>
+							<img src="../img/tarimas.jpeg" class="d-block w-100" alt="">
+						</div>
+					</div>
+					<!-- Controles -->
+                 <button id="boton1" 
+                 class="carousel-control-prev" 
+                 type="button" 
+                 data-bs-target="#mycarousel" 
+                 data-bs-slide="prive">
+                 <span class="carousel-control-prev-icon"aria-hidden="true"></span>
+                 <span class="visually-hidden">Anterior</span>
+				</button>
+
+				  <button id="boton2" 
+                 class="carousel-control-next" 
+                 type="button" 
+                 data-bs-target="#mycarousel" 
+                 data-bs-slide="carousel-control-next-icon">
+                 <span class="carousel-control-next-icon"aria-hidden="true"></span>
+                 <span class="visually-hidden">Siguiente</span>
+				</button>
+
+	 <!--Indicadores-->
+              <div class="carousel-indicators">
+              	<button type="button" class="active" data-bs-target="#mycarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+              	<button type="button" class="active" data-bs-target="#mycarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              	<button type="button" class="active" data-bs-target="#mycarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<h2>Cotizaciones y ubicaciones.</h2>
+		</div>
+		<div class="row">
+			
+            <div class="col-4">
+                <div class="card cotizacion justify-content-center">
+                    <img src="../img/cotizar.jpg" alt="No se encontro." width="390" class="car-im-top-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Cotización</h5>
+                        <h6 class="card-subtitle">Realiza una cotización si deseas comprar por mayoreo</h6>
+                        <p>Como proveedores de tarimas en Servicios Titan ofrecemos una cotizacion a nuestros clientes que requieran una para realizar una compra de tarimas especiales con su cantidad de tarimas necesarias, sobre todo es especial para fabricas de la industria maquiladora.</p>
+                        <a href="../clientes/cotizar.php" class="cotizar btn btn-outline-primary"><i class="bi bi-currency-dollar"></i> Cotizar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+            	<div class="card cotizacion justify-content-center">
+              		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3478.0990433198!2d-100.997551!3d29.338092999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f5c00223c9b11d%3A0x7dc3ee893fe8653c!2sServicios%20y%20Suministros%20Tit%C3%A1n!5e0!3m2!1ses!2smx!4v1680555589287!5m2!1ses!2smx" width="390" height="335" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Sucursal Ciudad Acuña.</h5>
+                        <h6 class="card-subtitle">Nos ubicamos en:</h6>
+                        <p>Carretera Santa Eulalia Km 1050, Parque Industrial La Paz CP. 26238.</p>
+						<p>Tel: (877) 773 16 17 y 773 16 20</p>
+						<p>tarimas_titan@yahoo.com.mx</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+            	<div class="card cotizacion justify-content-center">
+                	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1522.4326730664884!2d-100.564532691083!3d28.6540557086297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865f8b22e04b22d7%3A0xfddcb73688ebb9dc!2sR%C3%ADo%20Escondido%2C%20Piedras%20Negras%2C%20Coah.!5e0!3m2!1ses!2smx!4v1679935225814!5m2!1ses!2smx" width="390" height="335" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Sucursal Piedras Negras.</h5>
+                        <h6 class="card-subtitle">Nos ubicamos en:</h6>
+                        <p>Privada Ninguno, No. 1814, Colonia Villa De Fuente, Piedras Negras, CP: 26090.</p>
+                        <p>Tel: (877) 786 16 52 y 786 16 20</p>
+						<p>tarimas_titan@yahoo.com.mx</p>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="contacto col">
+				<div class="row widgets justify-content-end">
+					<div class="col-12 col-md-4 col-lg-3">
+						<p>Ciudad Acuña, Coah.</p>
+						<p>Tel: (877) 773 16 17 y 773 16 20</p>
+						<p>tarimas_titan@yahoo.com.mx</p>
+					</div>
+
+					<div class="col-12 col-md-4 col-lg-3">
+						<p>Piedras Negras, Coah.</p>
+						<p>Tel: (877) 786 16 52 y 786 16 20</p>
+						<p>tarimas_titan@yahoo.com.mx</p>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
